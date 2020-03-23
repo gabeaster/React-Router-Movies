@@ -20,11 +20,7 @@ const App = () => {
 
       <div className='nav-links'>
         <Link to='/'>Home</Link>
-        
-      </div>
-
-
-      <Switch>
+        <Switch>
         <Route path="/movies/:id">
           <Movie />
         </Route>
@@ -32,6 +28,10 @@ const App = () => {
           <MovieList />
         </Route>
       </Switch>
+      </div>
+
+
+      
     </div>
   );
 };
